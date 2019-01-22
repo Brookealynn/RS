@@ -1,0 +1,41 @@
+/*
+Footer style
+*/
+.footer {
+  padding: 20px 0;
+  .copyright {
+    line-height: 40px;
+  }
+}
+.social {
+  > li > a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    &:hover {
+      -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+  .twitter {
+    background-color: #63cdf1;
+  }
+  .facebook {
+    background: #507cbe;
+  }
+  .pinterest {
+    background: #c92228;
+  }
+  .dribbble {
+    background: #C73B6F;
+  }
+  .linkedin {
+    background: #0077B5;
+  }
+}
