@@ -13,8 +13,8 @@ var users = require('./routes/users');
 
 global.dbHandel = require('./database/dbHandel');
 // global.db = mongoose.connect("mongodb://fish:fish!!!@cluster0-shard-00-00-mfedp.mongodb.net:27017,cluster0-shard-00-01-mfedp.mongodb.net:27017,cluster0-shard-00-02-mfedp.mongodb.net:27017/Research?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true");
-//global.db = mongoose.connect("mongodb://fish:fish!!!@cluster0-shard-00-00-mfedp.mongodb.net:27017,cluster0-shard-00-01-mfedp.mongodb.net:27017,cluster0-shard-00-02-mfedp.mongodb.net:27017/Research?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true");
-global.db = mongoose.connect("mongodb://127.0.0.1:27017");
+global.db = mongoose.connect("mongodb://fish:fish!!!@cluster0-shard-00-00-mfedp.mongodb.net:27017,cluster0-shard-00-01-mfedp.mongodb.net:27017,cluster0-shard-00-02-mfedp.mongodb.net:27017/Research?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true");
+//global.db = mongoose.connect("mongodb://127.0.0.1:27017");
 
 var app = express();
 app.use(session({
